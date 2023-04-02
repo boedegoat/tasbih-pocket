@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "tasbih-mobile",
-    "slug": "tasbih-mobile",
+    "name": "Tasbih Pocket",
+    "slug": "tasbih-pocket",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#111827"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#111827"
+      },
+      "package": "com.bhremada.tasbihpocket"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "130be144-7da8-4076-b4d1-84605d8c2bd6"
+      }
     }
   }
 }
